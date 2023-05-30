@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C206AAB62A0BEC7700DFCB78 /* EnergridrikkeguidenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C206AAB52A0BEC7700DFCB78 /* EnergridrikkeguidenApp.swift */; };
+		C206AAB82A0BEC7700DFCB78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C206AAB72A0BEC7700DFCB78 /* ContentView.swift */; };
+		C206AABA2A0BEC7800DFCB78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C206AAB92A0BEC7800DFCB78 /* Assets.xcassets */; };
+		C206AABD2A0BEC7800DFCB78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C206AABC2A0BEC7800DFCB78 /* Preview Assets.xcassets */; };
+		C206AAC42A0BEFF100DFCB78 /* EnergiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C206AAC32A0BEFF100DFCB78 /* EnergiView.swift */; };
+		C21B7CFF2A1154A8007E58AF /* TopplisteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21B7CFE2A1154A8007E58AF /* TopplisteView.swift */; };
+		C27674FD2A0FEBC8007DC8F0 /* EnergiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27674FC2A0FEBC8007DC8F0 /* EnergiModel.swift */; };
+		C27674FF2A0FEC6C007DC8F0 /* EnergiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27674FE2A0FEC6C007DC8F0 /* EnergiViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C206AAB22A0BEC7700DFCB78 /* Energridrikkeguiden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Energridrikkeguiden.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C206AAB52A0BEC7700DFCB78 /* EnergridrikkeguidenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergridrikkeguidenApp.swift; sourceTree = "<group>"; };
+		C206AAB72A0BEC7700DFCB78 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C206AAB92A0BEC7800DFCB78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C206AABC2A0BEC7800DFCB78 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C206AAC32A0BEFF100DFCB78 /* EnergiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergiView.swift; sourceTree = "<group>"; };
+		C21B7CFE2A1154A8007E58AF /* TopplisteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopplisteView.swift; sourceTree = "<group>"; };
+		C27674FC2A0FEBC8007DC8F0 /* EnergiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergiModel.swift; sourceTree = "<group>"; };
+		C27674FE2A0FEC6C007DC8F0 /* EnergiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergiViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C206AAAF2A0BEC7700DFCB78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C206AAA92A0BEC7700DFCB78 = {
+			isa = PBXGroup;
+			children = (
+				C206AAB42A0BEC7700DFCB78 /* Energridrikkeguiden */,
+				C206AAB32A0BEC7700DFCB78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C206AAB32A0BEC7700DFCB78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C206AAB22A0BEC7700DFCB78 /* Energridrikkeguiden.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C206AAB42A0BEC7700DFCB78 /* Energridrikkeguiden */ = {
+			isa = PBXGroup;
+			children = (
+				C21B7CF52A1147F5007E58AF /* Views */,
+				C21B7CF42A1147C4007E58AF /* ViewModels */,
+				C21B7CF32A1147BE007E58AF /* Models */,
+				C206AAB52A0BEC7700DFCB78 /* EnergridrikkeguidenApp.swift */,
+				C206AAB92A0BEC7800DFCB78 /* Assets.xcassets */,
+				C206AABB2A0BEC7800DFCB78 /* Preview Content */,
+			);
+			path = Energridrikkeguiden;
+			sourceTree = "<group>";
+		};
+		C206AABB2A0BEC7800DFCB78 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C206AABC2A0BEC7800DFCB78 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C21B7CF32A1147BE007E58AF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C27674FC2A0FEBC8007DC8F0 /* EnergiModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C21B7CF42A1147C4007E58AF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C27674FE2A0FEC6C007DC8F0 /* EnergiViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C21B7CF52A1147F5007E58AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C206AAB72A0BEC7700DFCB78 /* ContentView.swift */,
+				C206AAC32A0BEFF100DFCB78 /* EnergiView.swift */,
+				C21B7CFE2A1154A8007E58AF /* TopplisteView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C206AAB12A0BEC7700DFCB78 /* Energridrikkeguiden */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C206AAC02A0BEC7800DFCB78 /* Build configuration list for PBXNativeTarget "Energridrikkeguiden" */;
+			buildPhases = (
+				C206AAAE2A0BEC7700DFCB78 /* Sources */,
+				C206AAAF2A0BEC7700DFCB78 /* Frameworks */,
+				C206AAB02A0BEC7700DFCB78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Energridrikkeguiden;
+			productName = Energridrikkeguiden;
+			productReference = C206AAB22A0BEC7700DFCB78 /* Energridrikkeguiden.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C206AAAA2A0BEC7700DFCB78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					C206AAB12A0BEC7700DFCB78 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = C206AAAD2A0BEC7700DFCB78 /* Build configuration list for PBXProject "Energridrikkeguiden" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C206AAA92A0BEC7700DFCB78;
+			productRefGroup = C206AAB32A0BEC7700DFCB78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C206AAB12A0BEC7700DFCB78 /* Energridrikkeguiden */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C206AAB02A0BEC7700DFCB78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C206AABD2A0BEC7800DFCB78 /* Preview Assets.xcassets in Resources */,
+				C206AABA2A0BEC7800DFCB78 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C206AAAE2A0BEC7700DFCB78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C206AAB82A0BEC7700DFCB78 /* ContentView.swift in Sources */,
+				C206AAB62A0BEC7700DFCB78 /* EnergridrikkeguidenApp.swift in Sources */,
+				C206AAC42A0BEFF100DFCB78 /* EnergiView.swift in Sources */,
+				C21B7CFF2A1154A8007E58AF /* TopplisteView.swift in Sources */,
+				C27674FF2A0FEC6C007DC8F0 /* EnergiViewModel.swift in Sources */,
+				C27674FD2A0FEBC8007DC8F0 /* EnergiModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C206AABE2A0BEC7800DFCB78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C206AABF2A0BEC7800DFCB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C206AAC12A0BEC7800DFCB78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Energridrikkeguiden/Preview Content\"";
+				DEVELOPMENT_TEAM = YA6X5LFLB6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = samakab.Energridrikkeguiden;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C206AAC22A0BEC7800DFCB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Energridrikkeguiden/Preview Content\"";
+				DEVELOPMENT_TEAM = YA6X5LFLB6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = samakab.Energridrikkeguiden;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C206AAAD2A0BEC7700DFCB78 /* Build configuration list for PBXProject "Energridrikkeguiden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C206AABE2A0BEC7800DFCB78 /* Debug */,
+				C206AABF2A0BEC7800DFCB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C206AAC02A0BEC7800DFCB78 /* Build configuration list for PBXNativeTarget "Energridrikkeguiden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C206AAC12A0BEC7800DFCB78 /* Debug */,
+				C206AAC22A0BEC7800DFCB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C206AAAA2A0BEC7700DFCB78 /* Project object */;
+}
